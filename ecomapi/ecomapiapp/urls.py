@@ -8,6 +8,7 @@ router.register('product', ProductViewSet)
 router.register('cart', CartViewSet)
 router.register('cartitem', CartItemViewSet)
 router.register('order', OrderViewSet)
+router.register('user', UserViewSet)
 
 urlpatterns = [
     path('api/', include(router.urls))
